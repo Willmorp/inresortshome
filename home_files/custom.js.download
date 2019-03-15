@@ -1,0 +1,114 @@
+(function($) {
+	
+	//alert();
+	// $ Works! You can test it with next line if you like
+	// console.log($);
+	$('.navbar-toggle').click(function(){
+		console.log('responsive');
+		$('#ubermenu-main-9-menu-1').toggle();
+	});
+	
+	counter=1;
+	
+	/*
+	$('.ubermenu-retractor-mobile').click(function(e){
+	
+		$(this).parent().hide();
+		counter++;
+	});
+	
+	$('body').off('click','li.ubermenu-item');
+	
+	$('li.ubermenu-item').click(function(e){
+		
+		
+		
+		var submenu = $(this).find('.ubermenu-submenu'); 
+		
+		submenu.toggle();
+		
+				
+		
+		
+	});
+	*/
+	
+	
+	/*icons*/
+	/*
+	$('#menu-item-42 a.ubermenu-target').prepend('<i class="fa fa-home"></i>');
+	$('#menu-item-237 a.ubermenu-target').prepend('<i class="fa fa-coffee"></i>');
+	$('#menu-item-88 a.ubermenu-target').prepend('<i class="fa fa-shopping-cart"></i>');
+	$('#menu-item-89 a.ubermenu-target').prepend('<i class="fa fa-users"></i>');
+	$('#menu-item-90 a.ubermenu-target').prepend('<i class="fa fa-th-large"></i>');
+	$('#menu-item-240 a.ubermenu-target').prepend('<i class="fa fa-pencil-square"></i>');
+	$('#menu-item-92 a.ubermenu-target').prepend('<i class="fa fa-sign-in"></i>');
+	$('li.ubermenu-item ul li a.ubermenu-target i').remove();
+*/
+	$('#menu-item-42 a.ubermenu-target').prepend('<span class="icMenu icHome"></span>');
+	$('#menu-item-237 a.ubermenu-target').prepend('<span class="icMenu icNosotros"></span>');
+	$('#menu-item-88 a.ubermenu-target').prepend('<span class="icMenu icProductos"></span>');
+	$('#menu-item-89 a.ubermenu-target').prepend('<span class="icMenu icSocial"></span>');
+	$('#menu-item-90 a.ubermenu-target').prepend('<span class="icMenu icMaterial"></span>');
+	$('#menu-item-2373 a.ubermenu-target').prepend('<span class="icMenu icBlog"></span>');
+	$('#menu-item-92 a.ubermenu-target').prepend('<span class="icMenu icOficina"></span>');
+	$('#menu-item-2696 a.ubermenu-target').prepend('<span class="icMenu icDemo"></span>');
+	$('li.ubermenu-item ul li a.ubermenu-target .icMenu').remove();
+	
+	/*ejecutivos*/
+	var frontimgW = $('.front img').width();
+	var frontimgH = $('.front img').height();
+	
+	$('.execBack').css({width:frontimgW+'px',height:frontimgH+'px'});
+	
+	$(window).resize(function(){
+		var frontimgW = $('.front img').width();
+	    var frontimgH = $('.front img').height();
+	
+	    $('.execBack').css({width:frontimgW+'px',height:frontimgH+'px'});
+	})
+	
+	
+	$('.e1').click(function(){
+		
+		$('.modalExec').hide();
+		$('.ejs1').show();
+	});
+	$('.e2').click(function(){
+		$('.modalExec').hide();
+		$('.ejs2').show();
+	});
+	$('.e3').click(function(){
+		$('.modalExec').hide();
+		$('.ejs3').show();
+	});
+	
+	$('.execClose').click(function(){
+		$('.modalExec').hide();
+	});
+	/*
+	$('.execClick').click(function(){
+		var imgExec = $(this).parents('.flipper').find('.front').html();
+		var txtExec = $(this).parents('.flipper').find('.front').html();
+		$('.modalExec .imgExec').append(imgExec);
+		$('.modalExec .imgExec').append(imgExec);
+		$('.modalExec').show();
+		
+		console.log(imgExec);
+	});
+	*/
+	
+	/*Plan de Creacción*/
+	$('.indiceLeftIcon').click(function(){
+		$('.menuIndice').css({left:"-280px"});
+		$('.indiceRightIconWrapper').show();
+	})
+	$('.indiceRightIcon').click(function(){
+		$('.menuIndice').css({left:"0px"}).show();
+		$('.indiceRightIconWrapper').hide();
+	})
+	
+	
+})( jQuery );
+
+
