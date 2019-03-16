@@ -15,9 +15,16 @@ header {
    
 }
 
-.teoma-header { z-index: 1000 !important; background: #174633; height: 80px; border: 0; border-top: 4px solid #ffe826; -webkit-box-shadow: -1px 3px 16px -2px rgba(0,0,0,0.75);
--moz-box-shadow: -1px 3px 16px -2px rgba(0,0,0,0.75);
-box-shadow: -1px 3px 16px -2px rgba(0,0,0,0.75);}
+.teoma-header {
+    z-index: 1000 !important;
+    background: #34b782;
+    height: 80px;
+    border: 0;
+    border-top: 4px solid #ffe826;
+    -webkit-box-shadow: -1px 3px 16px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 16px -2px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 16px -2px rgba(0,0,0,0.75);
+}
 
 header .container {background: transparent !important;}
 
