@@ -9,40 +9,46 @@ body {
 .bodynav {
     display: none;
     position: absolute;
-    width: 103px;
-    background-color: #174633;
-    top: 68px;
+    left: -45px;
+    width: 203px;
+    background: linear-gradient(to right, #203a43cc, #2c5364d6);
+    top: 62px;
     padding: 10px;
     color: white;
     border-radius: 6px;
-    transition: 2s ease-out;
+    list-style: none;
     cursor: pointer;
-    transition: all 0.8s ease-in;
+    transition: all 3s ease-in;
 }
 .bodynav span{
     color:white;
     font-size:14px;
     padding:8px;
 }
+.nosotros, .membresias, .oficina, .inscribete{
+    position:relative;
+}
 .nav-links{
     display:inline-flex !important;
 }
 .nav-link .bodynav:hover {
-    border: 1px solid black;
-    transition: all 0.3s ease-in;
+    transition: all 2s ease-in;
 }
-.nosotros:hover .bodynav1 {
+.nosotros:hover .bodynav1, .bodynav1:hover {
+    transition: all 2s ease-in;
     display: block;
 }
-.membresias:hover .bodynav2 {
+.membresias:hover .bodynav2, .bodynav2:hover {
+    transition: all 2s ease-in;
     display: block;
 }
-.oficina:hover .bodynav3 {
+.oficina:hover .bodynav3, .bodynav3:hover {
+    transition: all 2s ease-in;
     display: block;
 }
-.inscribete:hover .bodynav4 {
+/*.inscribete:hover .bodynav4 {
     display: block;
-}
+}*/
 
 @media (max-width:769px) {
     .nav-links {

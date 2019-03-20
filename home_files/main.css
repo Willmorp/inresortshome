@@ -60,7 +60,9 @@ h5 {font-size:18px;}
 h6 {font-size:14px;}
 
 a, a:hover {
-	color:#ffe826; text-decoration: none;}
+    color: #ffb14e;
+    text-decoration: none;
+}
 
 img{
   display: block;
@@ -300,11 +302,11 @@ header{
 .navbar.header-1 { padding: 14px 0 15px 0; }
 .teoma-header-large ul { 
 	padding-top: 7px; 	
-	-webkit-transition: padding 0.4s ease;
-	-moz-transition: padding 0.4s ease;
-	-ms-transition: padding 0.4s ease;
-	-o-transition: padding 0.4s ease;
-	transition: padding 0.4s ease;
+	-webkit-transition: padding 2s ease;
+	-moz-transition: padding 2s ease;
+	-ms-transition: padding 2s ease;
+	-o-transition: padding 2s ease;
+	transition: padding 2s ease;
 }
 .teoma-header-small ul { 
 	padding-top: 3px; 	
