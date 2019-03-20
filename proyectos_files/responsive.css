@@ -1,0 +1,284 @@
+@media (max-width: 1600px) {
+
+/*revSlider*/
+.revSlider {height: 600px !important;}
+#rev_slider_1_1 {height: 600px !important;}
+
+.ubermenu .ubermenu-submenu-drop.ubermenu-submenu-align-full_width {
+    width: auto;
+}
+
+}
+
+
+@media (max-width: 1280px) {
+  
+  .ubermenu .ubermenu-target-text {
+    font-size: 10px;
+}
+
+.ubermenu-sub-indicators .ubermenu-has-submenu-drop>.ubermenu-target {
+    padding-right: 15px;
+}
+
+.bloque1 h4 {
+    font-size: 24px;
+    
+}
+
+.homePlanCreaccion h3 {left: 50px !important;}
+
+.homePlanCreaccion a {left: 50px !important; top: 400px !important;}
+
+.execBack {width: 100%; height: 225px; }
+
+.testimonio.tRight img {
+    margin-right: 20px;
+
+}
+
+.ubermenu .ubermenu-submenu-drop.ubermenu-submenu-align-full_width {
+    width: auto;
+}
+
+  
+}
+
+
+@media (max-width: 1200px) {
+.bloque2{height: 586px;}
+
+.homePlanCreaccion h3 {left: 50px !important;}
+
+.homePlanCreaccion a {left: 50px !important; top: 68% !important;}
+
+}
+
+
+@media (max-width: 990px) {
+  
+.bloque1 h4 {
+    font-size: 16px;
+   text-align: center;
+   margin: 15px auto;
+}  
+
+.teoma-header {height: 60px; position: absolute;}
+
+.navbar-toggle {
+    margin-top: -9px;
+}
+
+.revSlider,#rev_slider_1_1 {
+    height: 500px !important;
+}
+
+#ubermenu-main-9-menu-1 {display: none;top: 65px;}
+
+.ubermenu-items-align-left.ubermenu-horizontal .ubermenu-item.ubermenu-item-level-0 {
+    padding-bottom: 0px;
+}
+
+.ubermenu {background: #174633 !important; padding: 10px 5px; border-radius: 5px;}
+
+.logo {
+   
+    width: 128px;
+   
+    padding: 10px;
+}
+
+.Bloque1WrapperOut {height: auto;}
+
+
+.homePlanCreaccion h3 {left: 50px !important;}
+
+.homePlanCreaccion a {left: 50px !important; top: 65% !important;}
+
+
+.bloque2WrapperOut {background-position-y: 0;}
+
+li.ubermenu-item a.ubermenu-target i{display: inline-block; font-size: 12px; width: auto; margin-right: 4px;}
+
+.blogSM {display: block;}  
+
+.execBack {width: 100%; height: 205px; }
+
+.icMenu {
+   
+    display: inline-block !important;
+    margin: 0 auto !important;
+    margin-bottom: -5px !important;
+    margin-right: 10px !important;
+}
+
+.bloque2{height: 470px;}
+  
+}
+
+
+@media (max-width: 768px) {
+  
+
+  
+.bloque1 h4 {
+    font-size: 14px;
+} 
+
+.revSlider,#rev_slider_1_1 {
+    height: 430px !important;
+}
+
+.b2 .services-1  {padding: 10px;}
+
+.homePlanCreaccion h3 {color: #174633 !important;}
+
+
+.homePlanCreaccion h3.pc1 { font-size: 12px !important;}
+.homePlanCreaccion h3.pc2 { font-size: 10px !important; line-height: 12px !important;}
+
+.homePlanCreaccion a {left: 50px !important; top: 75% !important;  color: #174633 !important; border-color: #174633 !important; font-size: 14px !important;}   
+
+
+  
+.Bloque1Wrapper {margin-top: -47px;} 
+
+.bloque2WrapperOut {background-position-y: 0;}
+
+ul.product-categories li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.wootmplWrapper,.wootmpl {margin-top: 0 !important;padding-top: 0;}
+
+.wootmpl {padding-top: 20px;}
+
+.wootmpl h1.page-title {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.front img {width: 200px !important; }
+
+.flip-container, .front, .back {
+	height: 270px;
+}
+
+.modalExec {width: 70%;  position: fixed;}
+.modalExec img {width: 200px; display: block; margin: 10px auto;}
+.contentExcec {font-size: 13px; line-height: 16px;}
+.contentExcec p{text-align: justify;}  
+
+.testimonio img {
+    margin: 0 auto !important; 
+    left: auto !important;
+    right:auto !important;
+    position: relative;
+    width: 200px !important;
+    display: table !important;
+    text-align: justify;
+}
+
+.teomaHomeBlock {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment:scroll;
+}
+
+.bloque2{height: auto;}
+
+.cInfo1{height: 75px;}
+
+.cInfoPhone {text-align: left !important;}
+
+}
+
+
+@media (max-width: 600px) {
+  
+.revSlider,#rev_slider_1_1 {
+    height: 330px !important;
+}  
+  
+.services-1 {padding: 0; border: 0; box-shadow: none !important;}
+
+.bloque1 h4 {
+    font-size: 12px;
+}
+
+.bloque2 h4 {
+    font-size: 15px;
+}
+
+.b2 .services-1 {padding: 10px;}
+
+.homePlanCreaccion h3.pc0 { top: 30px !important;}
+.homePlanCreaccion h3.pc1 { font-size: 13px !important;}
+.homePlanCreaccion h3.pc2 { font-size: 11px !important; bottom: auto !important; top: 60px !important; line-height: 12px !important;}
+.homePlanCreaccion a {left: 50px !important; top: 75% !important; color: #174633 !important; border-color: #174633 !important; font-size: 14px !important;}  
+
+.ejecutivo {width: 100%;}
+
+.cInfoInt { height: auto;}
+.cInfo img {
+    width: 40px;
+    height: auto;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.bloque2{height: auto;}
+
+}
+
+@media (max-width: 480px) {
+ 
+.modalExec {width: 90%;}  
+.modalExec img {width: 150px; display: block; margin: 10px auto;}
+  
+.bloque1 h4 {
+    font-size: 16px;
+} 
+
+.logo {width: 160px;} 
+  
+.b1,.b2 {width: 100%; float: none; margin: 0 auto; margin-bottom: 30px;}
+
+.b1 img {width: 60%; margin: 0 auto;}
+
+.b2 img {margin-bottom: 15px;}
+
+.revSlider,#rev_slider_1_1 {
+    height: 280px !important;
+}
+
+#ubermenu-main-9-menu-1 {top: 85px;}
+
+.homePlanCreaccion h3 {left: 20px !important;}
+.homePlanCreaccion h3.pc0 { top: 30px !important;}
+.homePlanCreaccion h3.pc1 { font-size: 12px !important; }
+.homePlanCreaccion h3.pc2 { font-size: 10px !important; bottom: auto !important; top: 60px !important; line-height: 10px !important; }
+.homePlanCreaccion a {left: 20px !important; top: 70% !important; color: #174633 !important; border-color: #174633 !important; font-size: 12px !important;line-height: 14px !important;} 
+
+#layersliderparallax {height: 260px !important;}
+
+.homePlanCreaccion img{top: auto !important; bottom: 0 !important;}
+
+.bloque2{height: auto;}
+  
+}
+@media (max-width: 380px) {
+  .homePlanCreaccion h3.pc2 { font-size: 10px !important; bottom: auto !important; top: 60px !important; line-height: 10px !important; }
+.homePlanCreaccion a {left: 20px !important; top: 75% !important; color: #174633 !important; border-color: #174633 !important; font-size: 12px !important;line-height: 14px !important;} 
+  
+}
+
+@media (max-width: 320px) {
+  
+  
+}
+@media (max-width: 990px){
+	.filtro {display: none;}	
+}
