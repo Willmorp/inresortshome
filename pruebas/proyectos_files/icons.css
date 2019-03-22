@@ -1,0 +1,264 @@
+.clr{
+	clear: both;
+}
+
+/*********************************
+     Social Icons Custom  
+**********************************/
+.social-icons-right{
+	position: fixed;
+	right: 0;
+	top: 0px;
+	padding: 0;
+	margin:0px;
+}
+.social-icons-left {
+position: fixed;
+top: 0px;
+left: 0px;
+padding: 0;
+margin: 0px;
+z-index: 99999;
+}
+
+.social-icons-left li,
+.social-icons-right li{
+	list-style: none;
+}
+.social-icons-right li a{
+	background:#003063 url(icons-custom.png)no-repeat 0 -43px;
+	display: block;
+	margin-bottom: 3px;
+	width: 43px;
+	height: 43px;
+	float: right;
+	/*-webkit-transition:  .5s;*/
+	-webkit-transition:all 130ms ease-in-out;
+}
+
+.social-icons-left li a{
+	background:#1e9f75 url(icons-custom.png)no-repeat 0 -43px;
+	display: block;
+	margin-bottom: 3px;
+	width: 43px;
+	height: 43px;
+	/*-webkit-transition:  .5s;*/
+	-webkit-transition:all 130ms ease-in-out;
+}
+.social-icons-left li a:hover,
+.social-icons-right li a:hover{
+	width: 55px;
+}
+.social-icons-left li .cfc-facebook,
+.social-icons-right li .cfc-facebook{
+	background-position: 11px 10px;
+}.social-icons-left li .cfc-facebook:hover{
+	background: #3b5998 url(icons-custom.png)no-repeat 20px 10px;
+}.social-icons-right li .cfc-facebook:hover{
+	background: #3b5998 url(icons-custom.png)no-repeat 11px 10px;
+}
+
+.social-icons-left  li .cfc-twitter,
+.social-icons-right  li .cfc-twitter{
+	background-position: -36px 9px;
+}.social-icons-left li .cfc-twitter:hover{
+	background: #29c5f6 url(icons-custom.png)no-repeat -27px 9px;
+}.social-icons-right li .cfc-twitter:hover{
+	background: #29c5f6 url(icons-custom.png)no-repeat -36px 9px;
+}
+
+.social-icons-left li .cfc-youtub,
+.social-icons-right li .cfc-youtub{
+	background-position:-83px 8px;
+}.social-icons-left li .cfc-youtub:hover{
+	background: #dd332c url(icons-custom.png)no-repeat -74px 8px;
+}.social-icons-right li .cfc-youtub:hover{
+	background: #dd332c url(icons-custom.png)no-repeat -83px 8px;
+}
+
+.social-icons-left li .cfc-linkedin,
+.social-icons-right li .cfc-linkedin{
+	background-position: -192px 9px;
+}.social-icons-left li .cfc-linkedin:hover{
+	background: #dd332c url(icons-custom.png)no-repeat -183px 9px;
+}
+.social-icons-right li .cfc-linkedin:hover{
+	background: #dd332c url(icons-custom.png)no-repeat -192px 9px;
+}
+
+
+.social-icons-left li .cfc-pinterest,
+.social-icons-right li .cfc-pinterest{
+	background-position: -134px -90px;
+}.social-icons-left li .cfc-pinterest:hover{
+	background: #c61118 url(icons-custom.png)no-repeat -125px -90px;
+}.social-icons-right li .cfc-pinterest:hover{
+	background: #c61118 url(icons-custom.png)no-repeat -134px -90px;
+}
+
+.social-icons-left li .cfc-flickr,
+.social-icons-right li .cfc-flickr{
+	background-position: -296px -39px;
+}.social-icons-left li .cfc-flickr:hover{
+	background: #f92370 url(icons-custom.png)no-repeat -287px -39px;
+}.social-icons-right li .cfc-flickr:hover{
+	background: #f92370 url(icons-custom.png)no-repeat -296px -39px;
+}
+
+.social-icons-left li .cfc-rss,
+.social-icons-right li .cfc-rss{
+	background-position:-82px -37px;
+}.social-icons-left li .cfc-rss:hover{
+	background: #fd8b05 url(icons-custom.png)no-repeat -73px -37px;
+}
+.social-icons-right li .cfc-rss:hover{
+	background: #fd8b05 url(icons-custom.png)no-repeat -82px -37px;
+}
+
+.social-icons-left li .cfc-skype,
+.social-icons-right li .cfc-skype{
+	background-position: 13px -38px;
+}.social-icons-left li .cfc-skype:hover{
+	background: #24b4ef url(icons-custom.png)no-repeat 22px -38px;
+}.social-icons-right li .cfc-skype:hover{
+	background: #24b4ef url(icons-custom.png)no-repeat 13px -38px;
+}
+
+.social-icons-left li .cfc-vimeo,
+.social-icons-right li .cfc-vimeo{
+	background-position:-244px 11px;
+}.social-icons-left li .cfc-vimeo:hover{
+	background: #4da9cd url(icons-custom.png)no-repeat -235px 11px;
+}.social-icons-right li .cfc-vimeo:hover{
+	background: #4da9cd url(icons-custom.png)no-repeat -244px 11px;
+}
+
+.social-icons-left li .cfc-digg,
+.social-icons-right li .cfc-digg{
+	background-position: -137px 10px;
+}.social-icons-left li .cfc-digg:hover{
+	background: #3284c2 url(icons-custom.png)no-repeat -128px 8px;
+}.social-icons-right li .cfc-digg:hover{
+	background: #3284c2 url(icons-custom.png)no-repeat -137px 8px;
+}
+
+.social-icons-left li .cfc-blog,
+.social-icons-right li .cfc-blog{
+	background-position: -296px -88px;
+}.social-icons-left li .cfc-blog:hover{
+	background: #f97d17 url(icons-custom.png)no-repeat -287px -88px;
+}.social-icons-right li .cfc-blog:hover{
+	background: #f97d17 url(icons-custom.png)no-repeat -296px -88px;
+}
+
+.social-icons-left li .cfc-tumblr,
+.social-icons-right li .cfc-tumblr{
+	background-position: -191px -89px;
+}.social-icons-left li .cfc-tumblr:hover{
+	background: #395875 url(icons-custom.png)no-repeat -182px -89px;
+}.social-icons-right li .cfc-tumblr:hover{
+	background: #395875 url(icons-custom.png)no-repeat -191px -89px;
+}
+
+.social-icons-left li .cfc-mail,
+.social-icons-right li .cfc-mail{
+	background-position: -242px -88px;
+}.social-icons-left li .cfc-mail:hover{
+	background: #2a9ee7 url(icons-custom.png)no-repeat -233px -88px;
+}.social-icons-right li .cfc-mail:hover{
+	background: #2a9ee7 url(icons-custom.png)no-repeat -242px -88px;
+}
+
+.social-icons-left li .cfc-wordpress,
+.social-icons-right li .cfc-wordpress{
+	background-position: -85px -89px;
+}.social-icons-left li .cfc-wordpress:hover{
+	background: #2e2e2e url(icons-custom.png)no-repeat -76px -89px;
+}.social-icons-right li .cfc-wordpress:hover{
+	background: #2e2e2e url(icons-custom.png)no-repeat -85px -89px;
+}
+
+.social-icons-left li .cfc-dribbble,
+.social-icons-right li .cfc-dribbble{
+	background-position: -341px -38px;
+}.social-icons-left li .cfc-dribbble:hover{
+	background: #f97d17 url(icons-custom.png)no-repeat -332px -38px;
+}.social-icons-right li .cfc-dribbble:hover{
+	background: #f97d17 url(icons-custom.png)no-repeat -341px -38px;
+}
+
+.social-icons-left li .cfc-yahoo,
+.social-icons-right li .cfc-yahoo{
+	background-position: -37px -90px;
+}.social-icons-left li .cfc-yahoo:hover{
+	background: #f97d17 url(icons-custom.png)no-repeat -28px -90px;
+}.social-icons-right li .cfc-yahoo:hover{
+	background: #f97d17 url(icons-custom.png)no-repeat -37px -90px;
+}
+
+
+.social-icons-left li .cfc-reddit,
+.social-icons-right li .cfc-reddit{
+	background-position: -340px 10px;
+}.social-icons-left li .cfc-reddit:hover{
+	background: #83c0f6 url(icons-custom.png)no-repeat -331px 10px;
+}.social-icons-right li .cfc-reddit:hover{
+	background: #83c0f6 url(icons-custom.png)no-repeat -340px 10px;
+}
+
+.social-icons-left li .cfc-myspace,
+.social-icons-right li .cfc-myspace{
+	background-position: 10px -89px;
+}.social-icons-left li .cfc-myspace:hover{
+	background: #1852cc url(icons-custom.png)no-repeat  19px -89px;
+}.social-icons-right li .cfc-myspace:hover{
+	background: #1852cc url(icons-custom.png)no-repeat  10px -89px;
+}
+
+.social-icons-left li .cfc-soundcloud,
+.social-icons-right li .cfc-soundcloud{
+	background-position: -296px 11px;
+}.social-icons-left li .cfc-soundcloud:hover{
+	background: #ff7300 url(icons-custom.png)no-repeat  -287px 11px;
+}.social-icons-right li .cfc-soundcloud:hover{
+	background: #ff7300 url(icons-custom.png)no-repeat  -296px 11px;
+}
+
+.social-icons-left li .cfc-amazon,
+.social-icons-right li .cfc-amazon{
+	background-position: -135px -37px;
+}.social-icons-left li .cfc-amazon:hover{
+	background: #171716 url(icons-custom.png)no-repeat  -126px -37px;
+}.social-icons-right li .cfc-amazon:hover{
+	background: #171716 url(icons-custom.png)no-repeat  -135px -37px;
+}
+
+.social-icons-left li .cfc-bing,
+.social-icons-right li .cfc-bing{
+	background-position: -344px -87px;
+}.social-icons-left li .cfc-bing:hover{
+	background: #2C80CE url(icons-custom.png)no-repeat  -335px -87px;
+}.social-icons-right li .cfc-bing:hover{
+	background: #2C80CE url(icons-custom.png)no-repeat  -344px -87px;
+}
+
+.social-icons-left li .cfc-delicious,
+.social-icons-right li .cfc-delicious{
+	background-position: -244px -39px;
+}.social-icons-left li .cfc-delicious:hover{
+	background: #363636 url(icons-custom.png)no-repeat  -235px -39px;
+}
+.social-icons-right li .cfc-delicious:hover{
+	background: #363636 url(icons-custom.png)no-repeat  -244px -39px;
+}
+
+
+.social-icons-left li .cfc-share,
+.social-icons-right li .cfc-share{
+	background-position: -32px -37px;
+}.social-icons-left li .cfc-share:hover{
+	background: #40b81a url(icons-custom.png)no-repeat  -23px -37px;
+}
+.social-icons-right li .cfc-share:hover{
+	background: #40b81a url(icons-custom.png)no-repeat  -32px -37px;
+}

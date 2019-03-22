@@ -16,13 +16,27 @@ header {
 
 .teoma-header {
     z-index: 1000 !important;
-    background: linear-gradient(to right, #2c5364d6, #203a43cc, black);
+    /*background: linear-gradient(to right, #2c5364d6, #203a43cc, black);*/
+    background: linear-gradient(143deg,#00000094, #072442db, #000000a3);
     height: 80px;
     border: 0;
-    border-top: 4px solid #5087bfd1;
+    border-top: 4px solid #072442db;
     -webkit-box-shadow: -1px 3px 16px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 3px 16px -2px rgba(0,0,0,0.75);
     box-shadow: -1px 3px 16px -2px rgba(0,0,0,0.75);
+}
+@keyframes alibaba {
+    0% {
+        opacity: 0.6;
+        top: 70px;
+        height: 20px;
+    }
+
+    to {
+        opacity: 0.9;
+        top: 60px;
+        height: 120px;
+    }
 }
 
 header .container {
@@ -154,10 +168,12 @@ span {
 
 .logo {
     float: left;
-    transition: all 0.4s ease-out 0s;
+    transition: all 1.4s ease-out 0s;
     width: 230px;
     margin-top: -22px;
-    background: linear-gradient(143deg,black, #2c5364, #ffffff, #2c5364, black);
+    /*background: linear-gradient(143deg,black, #2c5364, #ffffff, #2c5364, black);*/
+    background: linear-gradient(143deg,#072442, #072442, #ffffff, #072442, #072442);
+    /*background: linear-gradient(143deg,black, #072442, black);*/
     background-size: 600% 600%;
     padding: 20px;
     position: relative;
@@ -366,11 +382,12 @@ a.ls-s-1-linkto-1 {
 }
 
 footer {
-    background: #174633;
+    /*background: #124e86e0;*/
+    background: linear-gradient(143deg,black, #2c5364,#2c5364, black);
     padding-top: 30px;
     color: #9b9b9b;
 }
-
+/*#aa9278,*/
 
 
 /*revSlider*/

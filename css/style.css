@@ -12,13 +12,13 @@ body {
     left: -45px;
     width: 203px;
     background: linear-gradient(to right, #203a43cc, #2c5364d6);
-    top: 50px;
+    top: 61px;
     padding: 10px;
     color: white;
     border-radius: 6px;
     list-style: none;
     cursor: pointer;
-    transition: all 3s ease-in;
+    transition: all 1s ease;
 }
 .bodynav span{
     color:white;
