@@ -2,17 +2,17 @@ body {
 }
 
 .nav-links label{
-    margin:5px;
-    padding:5px;
+    margin:0 5px;
+    padding:0 5px;
     color:white;
 }
 .bodynav {
-    display: none;
+    display:none;
     position: absolute;
     left: -45px;
     width: 203px;
     background: linear-gradient(to right, #203a43cc, #2c5364d6);
-    top: 62px;
+    top: 50px;
     padding: 10px;
     color: white;
     border-radius: 6px;
@@ -25,8 +25,8 @@ body {
     font-size:14px;
     padding:8px;
 }
-.nosotros, .membresias, .oficina, .inscribete{
-    position:relative;
+.nosotros, .membresias, .oficina, .inscribete, .proyectos, .serinresorts, .oportunidad {
+    position: relative;
 }
 .nav-links{
     display:inline-flex !important;
@@ -40,6 +40,18 @@ body {
     animation: aparecepe 2s;
 }
 .membresias:hover .bodynav2, .bodynav2:hover {
+    transition: all 2s ease-in;
+    display: block;
+}
+.proyectos:hover .bodynav2, .bodynav2:hover {
+    transition: all 2s ease-in;
+    display: block;
+}
+.oportunidad:hover .bodynav2, .bodynav2:hover {
+    transition: all 2s ease-in;
+    display: block;
+}
+.serinresorts:hover .bodynav2, .bodynav2:hover {
     transition: all 2s ease-in;
     display: block;
 }
