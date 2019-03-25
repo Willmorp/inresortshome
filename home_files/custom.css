@@ -988,9 +988,9 @@ li.ubermenu-item a.ubermenu-target i {
     }
 
 .execBack {
-    width: 100%;
+    width: 50%;
     height: 280px;
-    background: #174633;
+    background: #325171;
     top: 40px;
     position: absolute;
     border-radius: 20px;
@@ -1005,7 +1005,7 @@ li.ubermenu-item a.ubermenu-target i {
         top: 50%;
         transform: translateY(-50%);
         text-align: center;
-        color: #ffe826;
+        color: #f7f7f7;
     }
 
 .execClick {
