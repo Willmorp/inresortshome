@@ -1,17 +1,19 @@
 body {
 }
 
-.nav-links label{
-    margin:0 5px;
-    padding:0 5px;
-    color:white;
+.nav-links label {
+    margin: 0 5px;
+    padding: 0 5px;
+    color: white;
+    cursor: pointer;
 }
 .bodynav {
-    display:none;
+    display: none;
     position: absolute;
     left: -45px;
     width: 203px;
-    background: linear-gradient(to right, #203a43cc, #2c5364d6);
+    /*background: linear-gradient(to right, #203a43cc, #2c5364d6);*/
+    background: linear-gradient(143deg,#00000094, #072442db, #000000a3);
     top: 61px;
     padding: 10px;
     color: white;
