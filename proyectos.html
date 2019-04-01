@@ -4875,9 +4875,9 @@
                                 <div class="social">
                                     <div class="search-widget">
                                         <a href="">
-                                        <div class="social-box">
-                                            <i class="mukam-search"></i>
-                                        </div>
+                                            <div class="social-box">
+                                                <i class="mukam-search"></i>
+                                            </div>
                                         </a>
                                         <div class="search">
                                             <form method="get" action="">
@@ -4893,7 +4893,8 @@
                     </div>
                 </div>
                 <div class="showhide">
-                <div class="trans-topsection">+</div></div>
+                    <div class="trans-topsection">+</div>
+                </div>
             </div>
             <div class="container">
                 <div class="row">
@@ -4920,12 +4921,12 @@
                                     <div class="nav-links">
                                         <div class="nosotros" style="height: 62px;">
                                             <div style="display:grid;text-align:center">
-                                                <i style="color:white" class="fas fa-user-friends"></i>
-                                                <label>Nosotros</label>
+                                                <i style="color:white" onclick="slideToggle()" class="fas fa-user-friends"></i>
+                                                <label onclick="slideToggle()">Nosotros</label>
 
                                             </div>
                                             <!--animation: mymove 10s ease;-->
-                                            <ul class="bodynav1 bodynav" style="animation: alibaba 1s ease">
+                                            <ul id="vol" class="bodynav1 bodynav" style="animation: alibaba 1s">
                                                 <li id="" class="">
                                                     <a class="" href="quienes-somos.html">
                                                         <span class="">¿Quiénes somos?</span>
@@ -4957,17 +4958,17 @@
                                                 </a>
                                             </div>
                                             <!--<ul class="bodynav2 bodynav"  style="animation: alibaba 1s ease">
-                                    <li id="" class="">
-                                        <a class="" href="">
-                                            <span class=""> ?</span>
-                                        </a>
-                                    </li>
-                                    <li id="" class="">
-                                        <a class="" href="">
-                                            <span class=""> ?</span>
-                                        </a>
-                                    </li>
-                                </ul>-->
+                                                <li id="" class="">
+                                                    <a class="" href="">
+                                                        <span class=""> ?</span>
+                                                    </a>
+                                                </li>
+                                                <li id="" class="">
+                                                    <a class="" href="">
+                                                        <span class=""> ?</span>
+                                                    </a>
+                                                </li>
+                                            </ul>-->
                                         </div>
                                         <div class="oportunidad" style="height: 62px;">
                                             <a href="oportunidad-laboral.html">
@@ -4980,58 +4981,58 @@
                                                 </div>
                                             </a>
                                             <!--<ul class="bodynav2 bodynav" style="animation: alibaba 1s ease">
-                                    <li id="" class="">
-                                        <a class="" href="">
-                                            <span class=""> ?</span>
-                                        </a>
-                                    </li>
-                                    <li id="" class="">
-                                        <a class="" href="">
-                                            <span class=""> ?</span>
-                                        </a>
-                                    </li>
-                                </ul>-->
+                                                <li id="" class="">
+                                                    <a class="" href="">
+                                                        <span class=""> ?</span>
+                                                    </a>
+                                                </li>
+                                                <li id="" class="">
+                                                    <a class="" href="">
+                                                        <span class=""> ?</span>
+                                                    </a>
+                                                </li>
+                                            </ul>-->
                                         </div>
                                         <!--<div class="serinresorts" style="height: 62px;">
-                                <div style="display:grid;text-align:center">
-                                    <i style="color:white" class="fas fa-sun"></i>
+                                            <div style="display:grid;text-align:center">
+                                                <i style="color:white" class="fas fa-sun"></i>
 
 
-                                    <label>Ser Inresorts</label>
-                                </div>
+                                                <label>Ser Inresorts</label>
+                                            </div>
 
-                                <ul class="bodynav2 bodynav" style="animation: alibaba 1s ease">
-                                    <li id="" class="">
-                                        <a class="" href="">
-                                            <span class=""> ?</span>
-                                        </a>
-                                    </li>
-                                    <li id="" class="">
-                                        <a class="" href="">
-                                            <span class=""> ?</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>-->
+                                            <ul class="bodynav2 bodynav" style="animation: alibaba 1s ease">
+                                                <li id="" class="">
+                                                    <a class="" href="">
+                                                        <span class=""> ?</span>
+                                                    </a>
+                                                </li>
+                                                <li id="" class="">
+                                                    <a class="" href="">
+                                                        <span class=""> ?</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>-->
                                         <div class="oficina" style="height: 62px;">
-                                            <a href="https://inresorts.club"> 
-                                                <div style="display:grid;text-align:center"> 
+                                            <a href="https://inresorts.club">
+                                                <div style="display:grid;text-align:center">
                                                     <i style="color:white" class="fas fa-list-alt"></i>
                                                     <label>Oficina Virtual</label>
                                                 </div>
                                             </a>
-                                            <!--<ul class="bodynav3 bodynav" style="animation: alibaba 1s ease"> 
-                                    <li id="" class="">
-                                        <a class="" href="">
-                                            <span class=""> ?</span>
-                                        </a>
-                                    </li>
-                                    <li id="" class="">
-                                        <a class="" href="">
-                                            <span class=""> ?</span>
-                                        </a>
-                                    </li>
-                                </ul>-->
+                                            <!--<ul class="bodynav3 bodynav" style="animation: alibaba 1s ease">
+                                                <li id="" class="">
+                                                    <a class="" href="">
+                                                        <span class=""> ?</span>
+                                                    </a>
+                                                </li>
+                                                <li id="" class="">
+                                                    <a class="" href="">
+                                                        <span class=""> ?</span>
+                                                    </a>
+                                                </li>
+                                            </ul>-->
                                         </div>
                                         <div class="inscribete" style="height: 62px;">
 
@@ -5068,6 +5069,21 @@
                     height: 120px;
                 }
             }
+            @media (max-width:769px) {
+                @keyframes alibaba {
+                    0% {
+                        opacity: 0.6;
+                        top: 70px;
+                        height: 20px;
+                    }
+
+                    to {
+                        opacity: 0.9;
+                        top: 60px;
+                        height: 170px;
+                    }
+                }
+            }
         </style>
 
 
@@ -5088,23 +5104,23 @@
 
                         <img class="d-block w-100 solog" src="img/proy3.jpg" alt="First slide">
                         <!--<div class="carousel-caption d-md-block" style="color: white;text-shadow: 3px 2px 5px black;">
-                        <h5>Piscinas para adultos y niños</h5>
-                        <p>Cuidadosamente tratadas y certificadas por DIGESA </p>
-                    </div>-->
+                            <h5>Piscinas para adultos y niños</h5>
+                            <p>Cuidadosamente tratadas y certificadas por DIGESA </p>
+                        </div>-->
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100 solog" src="img/proy6.jpg" alt="Second slide">
                         <!--<div class="carousel-caption  d-md-block" style="color: white;text-shadow: 3px 2px 5px black;">
-                        <h5>Restaurante</h5>
-                        <p>La más variada carta de platos criollos, nacionales e internacionales</p>
-                    </div>-->
+                            <h5>Restaurante</h5>
+                            <p>La más variada carta de platos criollos, nacionales e internacionales</p>
+                        </div>-->
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100 solog" src="img/proy5.jpg" alt="Third slide">
                         <!--<div class="carousel-caption d-md-block" style="color: white;text-shadow: 3px 2px 5px black;">
-                        <h5>Areas de esparcimiento</h5>
-                        <p>Contamos con areas deportivas, futbol, voley, cuatrimotos, paseo a caballo, etc.</p>
-                    </div>-->
+                            <h5>Areas de esparcimiento</h5>
+                            <p>Contamos con areas deportivas, futbol, voley, cuatrimotos, paseo a caballo, etc.</p>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -5120,45 +5136,45 @@
         </div>
 
         <!--<section class="teoma-waypoint" data-animate-down="teoma-header-small header-1" data-animate-up="teoma-header-large header-1">
-            <div class="revSlider">
-                <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin: 0px auto; background: transparent; padding: 0px; height: 600px; overflow: visible;">
+                <div class="revSlider">
+                    <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin: 0px auto; background: transparent; padding: 0px; height: 600px; overflow: visible;">
 
-                    <div id="rev_slider_1_1" class="rev_slider fullwidthabanner revslider-initialised tp-simpleresponsive" style="margin-top: 0px; margin-bottom: 0px; height: 600px;" data-version="5.4.1" data-slideactive="rs-64">
-                        <ul class="tp-revslider-mainul" style="visibility: visible; display: block; overflow: hidden; width: 100%; height: 100%; max-height: none; left: 0px;">
+                        <div id="rev_slider_1_1" class="rev_slider fullwidthabanner revslider-initialised tp-simpleresponsive" style="margin-top: 0px; margin-bottom: 0px; height: 600px;" data-version="5.4.1" data-slideactive="rs-64">
+                            <ul class="tp-revslider-mainul" style="visibility: visible; display: block; overflow: hidden; width: 100%; height: 100%; max-height: none; left: 0px;">
 
-                            <li data-index="rs-64" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-link="" data-thumb="rp.com/wp-content/uploads/2018/12/4-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli active-revslide" style="width: 100%; height: 100%; overflow: hidden; z-index: 20; visibility: inherit; opacity: 1; background-color: rgba(255, 255, 255, 0);">
+                                <li data-index="rs-64" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-link="" data-thumb="rp.com/wp-content/uploads/2018/12/4-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli active-revslide" style="width: 100%; height: 100%; overflow: hidden; z-index: 20; visibility: inherit; opacity: 1; background-color: rgba(255, 255, 255, 0);">
 
-                                <div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="http://teomacorp.com/wp-content/uploads/2018/12/4.jpg" alt="" title="4" width="1500" height="600" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">
-            <div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;http://teomacorp.com/wp-content/uploads/2018/12/4.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="http://teomacorp.com/wp-content/uploads/2018/12/4.jpg"></div>
+                                    <div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="http://teomacorp.com/wp-content/uploads/2018/12/4.jpg" alt="" title="4" width="1500" height="600" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">
+                <div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;http://teomacorp.com/wp-content/uploads/2018/12/4.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="http://teomacorp.com/wp-content/uploads/2018/12/4.jpg"></div>
+            </div>
+
+            <div class="tp-parallax-wrap " style="width:100% !important;height:100% !important;position:absolute;display:block;;visibility:hidden"><div class="tp-loop-wrap" style="width:100% !important;height:100% !important;position:absolute;display:block;;"><div class="tp-mask-wrap" style="width:100% !important;height:100% !important;position:absolute;display:block;;"><div class="tp-caption slidelink" style="cursor: pointer; width: 100%; height: 100%; z-index: 60; visibility: hidden;" data-x="center" data-y="center" data-basealign="slide" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:100,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" id="layer-230925460"><a style="width:100%;height:100%;display:block" target="_self" href="http://teomacorp.com/"><span style="width:100%;height:100%;display:block"></span></a></div></div></div></div>
+            </li>
+
+            <li data-index="rs-60" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="http://teomacorp.com/wp-content/uploads/2018/12/3-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
+
+                <div class="slotholder" style="position:absolute; top:0px; left:0px; z-index:0;width:100%;height:100%;"><!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="http://teomacorp.com/wp-content/uploads/2018/12/3.jpg" alt="" title="3" width="1500" height="600" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">
+            <div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;http://teomacorp.com/wp-content/uploads/2018/12/3.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="http://teomacorp.com/wp-content/uploads/2018/12/3.jpg"></div>
         </div>
 
-        <div class="tp-parallax-wrap " style="width:100% !important;height:100% !important;position:absolute;display:block;;visibility:hidden"><div class="tp-loop-wrap" style="width:100% !important;height:100% !important;position:absolute;display:block;;"><div class="tp-mask-wrap" style="width:100% !important;height:100% !important;position:absolute;display:block;;"><div class="tp-caption slidelink" style="cursor: pointer; width: 100%; height: 100%; z-index: 60; visibility: hidden;" data-x="center" data-y="center" data-basealign="slide" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:100,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" id="layer-230925460"><a style="width:100%;height:100%;display:block" target="_self" href="http://teomacorp.com/"><span style="width:100%;height:100%;display:block"></span></a></div></div></div></div>
         </li>
 
-        <li data-index="rs-60" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="http://teomacorp.com/wp-content/uploads/2018/12/3-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
+        <li data-index="rs-3" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="http://teomacorp.com/wp-content/uploads/2018/12/2-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
 
-            <div class="slotholder" style="position:absolute; top:0px; left:0px; z-index:0;width:100%;height:100%;"><!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="http://teomacorp.com/wp-content/uploads/2018/12/3.jpg" alt="" title="3" width="1500" height="600" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">
-        <div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;http://teomacorp.com/wp-content/uploads/2018/12/3.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="http://teomacorp.com/wp-content/uploads/2018/12/3.jpg"></div>
-    </div>
+            <div class="slotholder" style="position:absolute; top:0px; left:0px; z-index:0;width:100%;height:100%;"><!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="http://teomacorp.com/wp-content/uploads/2018/12/2.jpg" alt="" title="2" width="1500" height="600" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina=""><div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;http://teomacorp.com/wp-content/uploads/2018/12/2.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="http://teomacorp.com/wp-content/uploads/2018/12/2.jpg"></div></div>
 
-    </li>
+        </li>
+        </ul>
 
-    <li data-index="rs-3" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="http://teomacorp.com/wp-content/uploads/2018/12/2-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
+        <div class="tp-bannertimer tp-bottom" style="visibility: hidden; width: 71.0444%; transform: translate3d(0px, 0px, 0px);"></div>	<div class="tp-loader spinner0" style="display: none;"><div class="dot1"></div><div class="dot2"></div><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div><div class="tp-leftarrow tparrows hesperiden" style="top: 50%; transform: matrix(1, 0, 0, 1, 20, -20); left: 0px;"></div><div class="tp-rightarrow tparrows hesperiden" style="top: 50%; transform: matrix(1, 0, 0, 1, -60, -20); left: 100%;"></div>
+        </div>
 
-        <div class="slotholder" style="position:absolute; top:0px; left:0px; z-index:0;width:100%;height:100%;"><!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="http://teomacorp.com/wp-content/uploads/2018/12/2.jpg" alt="" title="2" width="1500" height="600" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina=""><div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;http://teomacorp.com/wp-content/uploads/2018/12/2.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="http://teomacorp.com/wp-content/uploads/2018/12/2.jpg"></div></div>
-
-    </li>
-    </ul>
-
-    <div class="tp-bannertimer tp-bottom" style="visibility: hidden; width: 71.0444%; transform: translate3d(0px, 0px, 0px);"></div>	<div class="tp-loader spinner0" style="display: none;"><div class="dot1"></div><div class="dot2"></div><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div><div class="tp-leftarrow tparrows hesperiden" style="top: 50%; transform: matrix(1, 0, 0, 1, 20, -20); left: 0px;"></div><div class="tp-rightarrow tparrows hesperiden" style="top: 50%; transform: matrix(1, 0, 0, 1, -60, -20); left: 100%;"></div>
-    </div>
-
-    </div>
-    </div>
+        </div>
+        </div>
 
 
 
-    </section>-->
+        </section>-->
         <!-- Services -->
 
 
@@ -5181,9 +5197,11 @@
                                 <a class="btn dropdown-toggle" data-toggle="dropdown" href="https://www.gruposion.bo/index.php/proyectos#"> <span class="icon-cog"></span><span class="caret"></span> </a>
                                 <ul class="dropdown-menu">
                                     <li class="print-icon">
-                                    <a href="https://www.gruposion.bo/index.php/proyectos?tmpl=component&amp;print=1&amp;page=" title="Print article < Proyectos >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">	Imprimir</a> </li>
-                                    <li class="email-icon"> 
-                                    <a href="https://www.gruposion.bo/index.php/component/mailto/?tmpl=component&amp;template=gruposion&amp;link=7f77c49ffdc08f8053ee0a13d081eaa8b4116da8" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" rel="nofollow">	Email</a> </li>
+                                        <a href="https://www.gruposion.bo/index.php/proyectos?tmpl=component&amp;print=1&amp;page=" title="Print article < Proyectos >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">	Imprimir</a>
+                                    </li>
+                                    <li class="email-icon">
+                                        <a href="https://www.gruposion.bo/index.php/component/mailto/?tmpl=component&amp;template=gruposion&amp;link=7f77c49ffdc08f8053ee0a13d081eaa8b4116da8" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" rel="nofollow">	Email</a>
+                                    </li>
                                 </ul>
                             </div>
 
@@ -5194,7 +5212,7 @@
 
 
                         <div itemprop="articleBody">
-                            <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--line_border 
+                            <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--line_border
                                  tbk--colored tbk-icon-pos--after-title eluid9cbde930" style="margin: 14px;">
                                 <h3 class="tbk__title " style="text-align:center;" id="nuevo">Primer multinivel de bienes raíces del mundo</h3>
                                 <p style="text-align:center;">GRUPO SION Internacional es artífice de más de veinte proyectos urbanísticos ejecutados en Bolivia, entre complejos campestres y acuáticos, uno ecológico en Cancún, México, y el más grande parque latinoamericano con sede en Abadiânia, Brasil.</p>
@@ -5220,7 +5238,8 @@
                                                 </div>
                                             </div>
                                             <p class="text-right text-resolucion">
-                                            <a href="https://www.gruposion.bo/images/mapa/complejo-campestre-norte.jpg">Ver Página</a></p>
+                                                <a href="https://www.gruposion.bo/images/mapa/complejo-campestre-norte.jpg">Ver Página</a>
+                                            </p>
                                         </div>
                                     </div>
                                     <!-----------------------------------------------Complejo Laguna Palmira----------------------------------------------------------------------->
@@ -5301,8 +5320,8 @@
                                             </div>
                                             <p class="text-right text-resolucion"><a href="https://www.gruposion.bo/images/mapa/complejo-acuatico-zuriel.jpg">Ver mapa</a></p>
                                         </div>
-                                    </div> 
-                                </div>--> 
+                                    </div>
+                                </div>-->
                             </div>
 
 
@@ -5321,7 +5340,7 @@
 
     </div>
 
-  
+
     <footer>
         <div class="container">
             <div class="row">
@@ -5530,13 +5549,13 @@
                 position: absolute;
                 display: block;
                 width: 100%;
-                background-color: #333;
+                background: linear-gradient(143deg,#000000c4, #072442f2, #000000c9);
                 height: 0px;
                 transition: all 0.3s ease-in;
                 overflow-y: hidden;
                 top: 90px;
                 border-radius: 9px;
-                left: 0px;
+                left: -50px;
             }
 
                 .nav > .nav-links > a {
@@ -5552,8 +5571,43 @@
                 height: calc(100vh - 50px);
                 overflow-y: auto;
             }
+            .bodynav {
+                z-index: 20;
+                width: 97%;
+                margin: 6px;
+                height: 170px;
+                left: 0px;
+                font-weight: bold;
+                font-size: 25px;
+                background: linear-gradient(143deg,#000000c4, #072442f2, #000000c9);
+            }
+            .bodynav {
+                z-index: 20;
+                width: 97%;
+                margin: 6px;
+                height: 170px;
+                left: 0px;
+                font-weight: bold;
+                font-size: 25px;
+                background: linear-gradient(143deg,#000000c4, #072442f2, #000000c9);
+            }
         }
     </style>
+    <script>
+        var open = true;
+        function slideToggle() {
+            var cle2 = document.getElementById('vol');
+
+            if (open) {
+                open = false;
+                cle2.style.display = 'block';
+            }
+            else {
+                open = true;
+                cle2.style.display = 'none';
+            }
+        }
+    </script>
     <script type="text/javascript">
         function revslider_showDoubleJqueryError(sliderID) {
             var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
@@ -5606,7 +5660,7 @@
     <script type="text/javascript">
         /* <![CDATA[ */
         var ubermenu_data = { "remove_conflicts": "on", "reposition_on_load": "off", "intent_delay": "300", "intent_interval": "100", "intent_threshold": "7", "scrollto_offset": "50", "scrollto_duration": "1000", "responsive_breakpoint": "959", "accessible": "on", "retractor_display_strategy": "responsive", "touch_off_close": "on", "collapse_after_scroll": "on", "v": "3.2.6", "configurations": ["main"], "ajax_url": "http:\/\/teomacorp.com\/wp-admin\/admin-ajax.php", "plugin_url": "http:\/\/teomacorp.com\/wp-content\/plugins\/ubermenu\/" };
-                            /* ]]> */</script>
+                                /* ]]> */</script>
     <script type="text/javascript" src="./home_files/ubermenu.min.js.download"></script>
     <script type="text/javascript" src="./home_files/wp-embed.min.js.download"></script>
 

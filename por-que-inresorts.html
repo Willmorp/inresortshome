@@ -4921,12 +4921,12 @@
                                     <div class="nav-links">
                                         <div class="nosotros" style="height: 62px;">
                                             <div style="display:grid;text-align:center">
-                                                <i style="color:white" class="fas fa-user-friends"></i>
-                                                <label>Nosotros</label>
+                                                <i style="color:white" onclick="slideToggle()" class="fas fa-user-friends"></i>
+                                                <label onclick="slideToggle()">Nosotros</label>
 
                                             </div>
                                             <!--animation: mymove 10s ease;-->
-                                            <ul class="bodynav1 bodynav" style="animation: alibaba 1s ease">
+                                            <ul id="vol" class="bodynav1 bodynav" style="animation: alibaba 1s">
                                                 <li id="" class="">
                                                     <a class="" href="quienes-somos.html">
                                                         <span class="">¿Quiénes somos?</span>
@@ -5069,6 +5069,21 @@
                     height: 120px;
                 }
             }
+            @media (max-width:769px) {
+                @keyframes alibaba {
+                    0% {
+                        opacity: 0.6;
+                        top: 70px;
+                        height: 20px;
+                    }
+
+                    to {
+                        opacity: 0.9;
+                        top: 60px;
+                        height: 170px;
+                    }
+                }
+            }
         </style>
 
 
@@ -5202,7 +5217,7 @@
                                 <h3 class="tbk__title " style="text-align:center;" id="nuevo">¿Por qué inResorts?</h3>
                                 <p style="text-align:justify;font-family: 'Sansita', sans-serif;font-size:17px">
                                     Teoma es la única empresa peruana de redes de mercadeo que cuenta con tres laboratorios propios en Perú,
-                                    próximamente uno en Ecuador, Bolivia y otro en México. Estos cuentan con una vasta experiencia en el desarrollo 
+                                    próximamente uno en Ecuador, Bolivia y otro en México. Estos cuentan con una vasta experiencia en el desarrollo
                                     de productos nutracéuticos y cosmecéuticos. Actualmente contamos con un equipo, muy experimentado, de científicos,
                                     investigadores, nutricionistas y biólogos, que trabajan constantemente en llevar al siguiente nivel la oferta de
                                     productos.
@@ -5212,7 +5227,7 @@
                                 <h5 class="tbk__subtitle"></h5>
                             </div>
 
-                            
+
 
 
                         </div>
@@ -5439,13 +5454,13 @@
                 position: absolute;
                 display: block;
                 width: 100%;
-                background-color: #333;
+                background: linear-gradient(143deg,#000000c4, #072442f2, #000000c9);
                 height: 0px;
                 transition: all 0.3s ease-in;
                 overflow-y: hidden;
                 top: 90px;
                 border-radius: 9px;
-                left: 0px;
+                left: -50px;
             }
 
                 .nav > .nav-links > a {
@@ -5461,8 +5476,34 @@
                 height: calc(100vh - 50px);
                 overflow-y: auto;
             }
+
+            .bodynav {
+                z-index: 20;
+                width: 97%;
+                margin: 6px;
+                height: 170px;
+                left: 0px;
+                font-weight: bold;
+                font-size: 25px;
+                background: linear-gradient(143deg,#000000c4, #072442f2, #000000c9);
+            }
         }
     </style>
+    <script>
+        var open = true;
+        function slideToggle() {
+            var cle2 = document.getElementById('vol');
+
+            if (open) {
+                open = false;
+                cle2.style.display = 'block';
+            }
+            else {
+                open = true;
+                cle2.style.display = 'none';
+            }
+        }
+    </script>
     <script type="text/javascript">
         function revslider_showDoubleJqueryError(sliderID) {
             var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
@@ -5515,7 +5556,7 @@
     <script type="text/javascript">
         /* <![CDATA[ */
         var ubermenu_data = { "remove_conflicts": "on", "reposition_on_load": "off", "intent_delay": "300", "intent_interval": "100", "intent_threshold": "7", "scrollto_offset": "50", "scrollto_duration": "1000", "responsive_breakpoint": "959", "accessible": "on", "retractor_display_strategy": "responsive", "touch_off_close": "on", "collapse_after_scroll": "on", "v": "3.2.6", "configurations": ["main"], "ajax_url": "http:\/\/teomacorp.com\/wp-admin\/admin-ajax.php", "plugin_url": "http:\/\/teomacorp.com\/wp-content\/plugins\/ubermenu\/" };
-                                /* ]]> */</script>
+                                    /* ]]> */</script>
     <script type="text/javascript" src="./home_files/ubermenu.min.js.download"></script>
     <script type="text/javascript" src="./home_files/wp-embed.min.js.download"></script>
 
